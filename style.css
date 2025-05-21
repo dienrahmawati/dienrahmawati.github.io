@@ -135,7 +135,7 @@ footer {
   color: #0077b5; 
 }
 
-.social-media a.instagram i {
+.social-media a.instagram i{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, 
               #fd5949 45%, #d6249f 60%, #285AEB 90%);
   -webkit-background-clip: text;
