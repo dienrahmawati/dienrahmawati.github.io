@@ -126,9 +126,20 @@ footer {
 
 .social-media a {
   margin: 0 12px;
-  font-size: 1.8rem;
-  color: #4a89dc;
-  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 2.4rem;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.social-media a.linkedin {
+  color: #0077b5; 
+}
+
+.social-media a.instagram i {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, 
+              #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social-media a:hover {
